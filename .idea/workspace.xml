@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0392251b-b407-4c25-98b7-5c15ad0612e5" name="Changes" comment="Create player 2, enemy and implanting in the levels">
-      <change afterPath="$PROJECT_DIR$/code/EntityMediator.py" afterDir="false" />
+    <list default="true" id="0392251b-b407-4c25-98b7-5c15ad0612e5" name="Changes" comment="create mediator and verification of colision and healt">
+      <change afterPath="$PROJECT_DIR$/code/EnemyShot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/PlayerShot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/EntityMediator.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityMediator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/enemy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731187221769</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="create mediator and verification of colision and healt">
+      <option name="closed" value="true" />
+      <created>1731189514221</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731189514221</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,6 +223,7 @@
     <MESSAGE value="Create background level 1 with effect parallax, creat abstract class and factory" />
     <MESSAGE value="Create text in the level 1(fps, entidades)&#10;create music level 1 &#10;create timeout for the level(no implant)" />
     <MESSAGE value="Create player 2, enemy and implanting in the levels" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create player 2, enemy and implanting in the levels" />
+    <MESSAGE value="create mediator and verification of colision and healt" />
+    <option name="LAST_COMMIT_MESSAGE" value="create mediator and verification of colision and healt" />
   </component>
 </project>
