@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 from code.EnemyShot import EnemyShot
-from code.const import WIN_WIDTH, ENTITY_SPEED, ENTITY_SHOT_DELAY
+from code.const import  ENTITY_SPEED, ENTITY_SHOT_DELAY
 from code.entity import Entity
 
 
@@ -10,7 +10,7 @@ class Enemy(Entity):
         super().__init__(name, position)
         self.shot_delay = ENTITY_SHOT_DELAY[self.name]
 
-    def move(self, ):
+    def move(self):
         self.rect.centerx -= ENTITY_SPEED[self.name]
 
     def shot(self):
