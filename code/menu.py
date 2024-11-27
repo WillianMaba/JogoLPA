@@ -5,7 +5,7 @@ import pygame.image
 from pygame import Surface, Rect
 from pygame.font import Font
 
-from code.const import WIN_WIDTH, C_ORANGE, MENU_OPTION, C_WHITE, C_YELLOW
+from code.const import WIN_WIDTH, C_ORANGE, MENU_OPTION, C_WHITE, C_YELLOW, C_BLACK
 
 
 class Menu:
@@ -14,6 +14,7 @@ class Menu:
         self.window = window
         self.surf = pygame.image.load('./asset/MenuBg.png').convert_alpha()
         self.rect = self.surf.get_rect(left=0, top=0)
+
 
     def run(self):
         menu_option = 0
@@ -24,6 +25,8 @@ class Menu:
             self.window.blit(source=self.surf, dest=self.rect)
             self.menu_text(50, "Mountain", C_ORANGE, ((WIN_WIDTH / 2), 70))
             self.menu_text(50, "Shooter", C_ORANGE, ((WIN_WIDTH / 2), 120))
+            self.menu_text(14, 'Willian de Lara Reginato Maba', C_BLACK, (80, 5))
+            self.menu_text(14, 'RU:4511063', C_BLACK, (30, 20))
 
             #menu option
             for i in range(len(MENU_OPTION)):
@@ -52,6 +55,10 @@ class Menu:
                     if event.key == pygame.K_RETURN: #enter
                         return MENU_OPTION[menu_option]
             pygame.display.flip()
+
+
+
+
 
     def menu_text(self, text_size: int, text: str, text_color: tuple, text_center_pos: tuple):
         text_font: Font = pygame.font.SysFont(name="Lucid Sans Typewriter", size=text_size)

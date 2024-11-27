@@ -6,16 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0392251b-b407-4c25-98b7-5c15ad0612e5" name="Changes" comment="Creating Shot enemy and player">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/EntityMediator.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityMediator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/background.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/background.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/enemy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/entityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entityFactory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/level.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,17 +52,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "Python.game.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.menu.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature__level",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Python.game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.menu.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature__level&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\willi\PycharmProjects\MountainShooter\JogoLPA\asset" />
