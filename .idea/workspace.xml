@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0392251b-b407-4c25-98b7-5c15ad0612e5" name="Changes" comment="Creating the code from implanting lvl 3">
+    <list default="true" id="0392251b-b407-4c25-98b7-5c15ad0612e5" name="Changes" comment="Implementando a criação do nivel 3 e seu inimigo, musica e background">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/enemy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/entityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entityFactory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732732132705</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Implementando a criação do nivel 3 e seu inimigo, musica e background">
+      <option name="closed" value="true" />
+      <created>1732736335139</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1732736335139</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,6 +293,7 @@
     <MESSAGE value="Creating name and RU in the menu" />
     <MESSAGE value="Creating const enemy 3" />
     <MESSAGE value="Creating the code from implanting lvl 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating the code from implanting lvl 3" />
+    <MESSAGE value="Implementando a criação do nivel 3 e seu inimigo, musica e background" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementando a criação do nivel 3 e seu inimigo, musica e background" />
   </component>
 </project>

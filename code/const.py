@@ -10,6 +10,7 @@ C_CYAN = (0, 128, 128)
 
 
 #E
+#foi adicionado as vidas, velocidades e danos do background, inimigo do level 3
 EVENT_TIMEOUT = pygame.USEREVENT + 2
 EVENT_ENEMY = pygame.USEREVENT + 1
 ENTITY_SPEED ={
@@ -163,7 +164,7 @@ SPAWN_TIME = 4000
 # T
 TIMEOUT_STEP = 100  # 100MS
 TIMEOUT_LEVEL = 2000  # 20SEG
-TIMEOUT_LEVEL3 = 30000 #30SEG
+TIMEOUT_LEVEL3 = 30000 #30SEG, tempo diferente para o nivel 3
 
 
 #W

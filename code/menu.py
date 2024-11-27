@@ -25,6 +25,7 @@ class Menu:
             self.window.blit(source=self.surf, dest=self.rect)
             self.menu_text(50, "Mountain", C_ORANGE, ((WIN_WIDTH / 2), 70))
             self.menu_text(50, "Shooter", C_ORANGE, ((WIN_WIDTH / 2), 120))
+            #adicionando meu nome e RU
             self.menu_text(14, 'Willian de Lara Reginato Maba', C_BLACK, (80, 5))
             self.menu_text(14, 'RU:4511063', C_BLACK, (30, 20))
 

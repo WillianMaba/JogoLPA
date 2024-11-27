@@ -32,7 +32,7 @@ class Level:
             self.entity_list.append(player)
         pygame.time.set_timer(EVENT_ENEMY,SPAWN_TIME)
         pygame.time.set_timer(EVENT_TIMEOUT, TIMEOUT_STEP)
-
+        #adicionei o tempo diferente para o level 3
         if self.name == 'Level3':
             self.timeout = TIMEOUT_LEVEL3  # Tempo específico para o nível 3
         else:
@@ -61,7 +61,7 @@ class Level:
                         pygame.quit()
                         sys.exit()
                     if event.type == EVENT_ENEMY:
-                        choice = random.choice(('Enemy1','Enemy2', 'Enemy3'))
+                        choice = random.choice(('Enemy1','Enemy2', 'Enemy3')) #adicionei o inimigo 3
                         self.entity_list.append(EntityFactory.get_entity(choice))
                     if event.type == EVENT_TIMEOUT:
                         self.timeout -= TIMEOUT_STEP
