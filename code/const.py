@@ -164,7 +164,7 @@ SPAWN_TIME = 4000
 # T
 TIMEOUT_STEP = 100  # 100MS
 TIMEOUT_LEVEL = 2000  # 20SEG
-TIMEOUT_LEVEL3 = 30000 #30SEG, tempo diferente para o nivel 3
+TIMEOUT_LEVEL3 = 40000 #40SEG, tempo diferente para o nivel 3
 
 
 #W

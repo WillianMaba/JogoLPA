@@ -4,7 +4,7 @@ from code.EnemyShot import EnemyShot
 from code.const import ENTITY_SPEED, ENTITY_SHOT_DELAY, WIN_HEIGHT
 from code.entity import Entity
 
-
+#não consegui fazer o movimento solicitado no trabalho
 class Enemy(Entity):
     def __init__(self, name: str, position: tuple):
         super().__init__(name, position)
