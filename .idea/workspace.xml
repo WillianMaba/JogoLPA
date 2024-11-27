@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0392251b-b407-4c25-98b7-5c15ad0612e5" name="Changes" comment="Implementando a criação do nivel 3 e seu inimigo, musica e background">
-      <change beforePath="$PROJECT_DIR$/code/entityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entityFactory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/level.py" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +18,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="feature_level" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="feature_level" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,6 +44,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/code/background.py" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -60,7 +64,7 @@
     "Python.main.executor": "Run",
     "Python.menu.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature__level",
+    "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -218,47 +222,7 @@
       <option name="project" value="LOCAL" />
       <updated>1731193175961</updated>
     </task>
-    <task id="LOCAL-00011" summary="Creating name and RU in the menu">
-      <option name="closed" value="true" />
-      <created>1732731061754</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1732731061754</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Creating const enemy 3">
-      <option name="closed" value="true" />
-      <created>1732731537538</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1732731537538</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Creating the code from implanting lvl 3">
-      <option name="closed" value="true" />
-      <created>1732732132705</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1732732132705</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Implementando a criação do nivel 3 e seu inimigo, musica e background">
-      <option name="closed" value="true" />
-      <created>1732736335139</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1732736335139</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Implementando a criação do nivel 3 e seu inimigo, musica e background">
-      <option name="closed" value="true" />
-      <created>1732736972826</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1732736972826</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
+
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,10 +259,6 @@
     <MESSAGE value="Create player 2, enemy and implanting in the levels" />
     <MESSAGE value="create mediator and verification of colision and healt" />
     <MESSAGE value="Creating Shot enemy and player" />
-    <MESSAGE value="Creating name and RU in the menu" />
-    <MESSAGE value="Creating const enemy 3" />
-    <MESSAGE value="Creating the code from implanting lvl 3" />
-    <MESSAGE value="Implementando a criação do nivel 3 e seu inimigo, musica e background" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementando a criação do nivel 3 e seu inimigo, musica e background" />
+
   </component>
 </project>
