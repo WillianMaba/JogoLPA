@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0392251b-b407-4c25-98b7-5c15ad0612e5" name="Changes" comment="Creating Shot enemy and player">
+    <list default="true" id="0392251b-b407-4c25-98b7-5c15ad0612e5" name="Changes" comment="Creating name and RU in the menu">
+      <change afterPath="$PROJECT_DIR$/asset/Enemy3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Enemy3Shot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level3Bg0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level3Bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level3Bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level3Bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level3Bg4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/const.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731193175961</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Creating name and RU in the menu">
+      <option name="closed" value="true" />
+      <created>1732731061754</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1732731061754</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +243,7 @@
     <MESSAGE value="Create player 2, enemy and implanting in the levels" />
     <MESSAGE value="create mediator and verification of colision and healt" />
     <MESSAGE value="Creating Shot enemy and player" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating Shot enemy and player" />
+    <MESSAGE value="Creating name and RU in the menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating name and RU in the menu" />
   </component>
 </project>
