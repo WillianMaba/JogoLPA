@@ -9,7 +9,7 @@ from pygame.font import Font
 
 from code.EntityMediator import EntityMediator
 from code.const import C_WHITE, WIN_HEIGHT, MENU_OPTION, EVENT_ENEMY, SPAWN_TIME, C_GREEN, C_CYAN, EVENT_TIMEOUT, \
-    TIMEOUT_STEP, TIMEOUT_LEVEL
+    TIMEOUT_STEP, TIMEOUT_LEVEL, TIMEOUT_LEVEL3
 from code.enemy import Enemy
 from code.entity import Entity
 from code.entityFactory import EntityFactory
@@ -18,7 +18,6 @@ from code.player import Player
 
 class Level:
     def __init__(self, window: Surface, name: str, game_mode: str, player_score: list[int]):
-        self.timeout = TIMEOUT_LEVEL
         self.window = window
         self.name = name
         self.game_mode = game_mode
@@ -33,6 +32,11 @@ class Level:
             self.entity_list.append(player)
         pygame.time.set_timer(EVENT_ENEMY,SPAWN_TIME)
         pygame.time.set_timer(EVENT_TIMEOUT, TIMEOUT_STEP)
+
+        if self.name == 'Level3':
+            self.timeout = TIMEOUT_LEVEL3  # Tempo específico para o nível 3
+        else:
+            self.timeout = TIMEOUT_LEVEL
 
     def run(self, player_score: list[int]):
         pygame.mixer_music.load(f'./asset/{self.name}.mp3')
